@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: #23252C;
+}
+.card{
+    margin: 0px auto 0px auto;
+    height: 780px;
+    width: 317px;
+    background-color: white;
+    border-radius: 1em;
+}
+.dp{
+    margin: 0;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-radius: 1em 1em 0em 0em;
+}
+.main{
+    background-color: #1A1B21;
+    height: 399px;
+    width: 317px;
+    margin-top: -0.4em;
+    margin-bottom: 0;
+}
+#name{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#position{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #F3BF99;
+    text-align: center;
+    font-weight:300;
+    font-size: 12.8px;
+}
+#links, a{
+    text-decoration: none;
+    color: white;
+    font-size: 10.24px;
+    font-weight: 200;
+    margin: 5px auto 0 auto;
+    width: fit-content;
+}
+.socialMedia{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 14% 0 14%;
+
+}
+#Email{
+    border-radius: .5em;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: medium;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    margin-top: -2px;
+    a{
+        color: black;
+    }
+}
+#LinkedIn{
+    border-radius: .5em;
+    background-color: #0072B1;
+    cursor: pointer;
+    border: none;
+}
+#emailLogo, #linkedinLogo{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: 0 0 0 0;
+    padding: 0 4px 0 4px;
+}
+#linkedinIcon, #emailIcon{
+    display: flex;
+    padding: 4px 2px;
+    text-align: center;
+    a{  
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+        padding: 4px 0 4px 0;;
+    }
+}
+.about_interest{
+    color: white;
+    margin: 0 35px 0 35px;
+    h3{ margin-top: 15px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    p{  margin-top: 5px;
+        margin-bottom: 2px;
+        font-size: 10.24px;
+        font-weight: 200;
+        line-height: 15px;
+        text-align: left;
+        text-indent: 15px;        
+    }
+}
+.footer{
+    background-color: #161619;
+    border-radius: 0em 0em 1em 1em;
+    img{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        margin: 21px auto;
+    }
+    #reachOut{
+        margin: auto 70px;
+        display: flex;
+        justify-content: space-between;
+        a{
+            margin: auto auto;
+            
+        }
+    }
+}
